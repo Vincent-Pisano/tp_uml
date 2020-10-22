@@ -1,21 +1,21 @@
 import { Client } from "./client";
+import { Contact } from "./contact";
+import { Details } from "./details";
 
 export class Individu extends Client
 {
-    prenom : string;
-    nom : string;
-    email : string; 
-
+    contact: Contact;
+    details : Details
+    
     constructor()
     {
-        super();
+        super(); 
         this.idClient = undefined;
         this.type = undefined;
         this.adresse = undefined;
 
-        this.prenom = undefined;
-        this.nom = undefined;
-        this.email = undefined;
+        this.contact = new Contact();
+        this.details = new Details();
     }
 
 }

@@ -49,3 +49,31 @@ PHASE 3 : Traduire les relations
     Contact     Compos      Entreprise
     Produit     Compos      Produit
     Option      Agréga      Produit
+
+PHASE 4 : Implémenter
+
+    Remarque 1 : relation Many to Many présente entre Droit et Produit
+        ==> création de la classe ProduitDroit
+        ==> nouvelles relations : 
+                Droit    1 -- n     ProduitDroit
+                Droit    1 -- n     ProduitDroit
+
+    Remarque 2 : Présence d'un Singleton dans la classe Produit
+        ==> on laisse l'instanciation de l'attribut Produit 
+            dans l'objet Produit en undefined
+        ==> Eviter de créer une boucle infinie et de faire planter
+            le programme
+
+    Remarque 3 : pas de ClientType pour la classe Parent (Client)
+        ==> on ajoute un ClientType pour la classe Client = indefini
+
+    Remarque 4 : Details et Contact n'ont pas de d'identifiant unique
+        ==> problème futur possible avec la base de données 
+            = possibilité de doublons 
+            --> ajout de idDetails (Details) et idContact (Contact)
+
+    Remarque 5 : doublon de code des attributs de Contact et de certain 
+                 attributs de Individu
+        ==> Clean Up du code, on veut limiter le code en double/inutile
+            --> Suppression des attributs prenom / nom / string et ajout 
+                d'un attribut de type Contact
