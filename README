@@ -88,3 +88,17 @@ PHASE 5 : Générer des données avec faker
 
         ==> 5 instances parmi la relation entre l'objet Droit et l'objet Produit
             --> generateProduitDroitJsonFiles   :      dataProduitDroit.json
+
+    les remplir en utilisant les fonctions de générations de données
+        ==> Générer les :
+            Droit       :      generateDroit        ==> Array<Droit>
+            Produit     :      generateProduit      ==> Array<Produit>
+            Option      :      generateOption       ==> Option
+            Contact     :      generateContact      ==> Contact
+            Details     :      generateDetails      ==> Details
+            Client      :      generateClient       ==> Client
+            Individu    :      generateIndividu     ==> Individu
+            Entreprise  :      generateEntreprise   ==> Entreprise
+            Array de   )
+            Droit d'un }:      generateDroitClients ==> Array<Droit>
+            Client     )     
