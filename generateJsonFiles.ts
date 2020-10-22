@@ -31,8 +31,8 @@ function generateDroit(nbrIteration: number)
         droit.idDroit = compteurIdDroit.toString();
         compteurIdDroit++;
         droit.type = DroitType[Math.floor(Math.random() * 3)] as unknown as DroitType;
-        droit.dateDebut = faker.date.recent();
-        droit.dateFin = faker.date.soon();
+        droit.dateDebut = faker.date.past();
+        droit.dateFin = faker.date.future();
 
         arrayDroit.push(droit);
     }
@@ -103,7 +103,7 @@ function generateClient(index: number)
     let client: Client;
     client = new Client();
     client.idClient = index;
-    client.type = ClientType.indefini;
+    client.type = ClientType.non_defini;
     client.adresse = faker.address.streetAddress();
 
     return client;
@@ -168,7 +168,7 @@ function generateDroitClients()
     return droits;
 }
 
-function generateCodeBarreJsonFiles()
+function generateClientJsonFiles()
 {
     let arrayClient: Array<Client> = new Array();
     let client: Client = new Client();
@@ -209,5 +209,5 @@ function generateProduitDroitJsonFiles()
     return {"ProduitDroit": arrayProduitDroit};
 }
 
-fs.writeFileSync('dataClient.json', JSON.stringify(generateCodeBarreJsonFiles(), null, '\t'));
+fs.writeFileSync('dataClient.json', JSON.stringify(generateClientJsonFiles(), null, '\t'));
 fs.writeFileSync('dataProduitDroit.json', JSON.stringify(generateProduitDroitJsonFiles(), null, '\t'));

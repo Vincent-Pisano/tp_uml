@@ -1,0 +1,79 @@
+{
+	"ProduitDroit": [
+		{
+			"droit": {
+				"idDroit": "0",
+				"type": "Droit_03",
+				"dateDebut": "2019-12-07T15:05:41.362Z",
+				"dateFin": "2021-06-02T19:14:09.151Z"
+			},
+			"produit": {
+				"id": 3,
+				"nom": "Handcrafted Plastic Tuna",
+				"description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart"
+			}
+		},
+		{
+			"droit": {
+				"idDroit": "2",
+				"type": "Droit_03",
+				"dateDebut": "2020-04-08T00:59:01.999Z",
+				"dateFin": "2020-10-24T10:06:53.570Z"
+			},
+			"produit": {
+				"id": 3,
+				"nom": "Handcrafted Plastic Tuna",
+				"description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart"
+			}
+		},
+		{
+			"droit": {
+				"idDroit": "3",
+				"type": "Droit_01",
+				"dateDebut": "2020-06-08T03:20:22.592Z",
+				"dateFin": "2021-08-29T12:50:02.120Z"
+			},
+			"produit": {
+				"id": 1,
+				"nom": "Handmade Granite Keyboard",
+				"description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016"
+			}
+		},
+		{
+			"droit": {
+				"idDroit": "4",
+				"type": "Droit_03",
+				"dateDebut": "2020-06-27T00:06:04.440Z",
+				"dateFin": "2021-10-18T19:31:02.648Z"
+			},
+			"produit": {
+				"id": 0,
+				"nom": "Handcrafted Concrete Chicken",
+				"description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+				"option": {
+					"id": 0,
+					"nom": "Park Chicken Senior",
+					"description": "Quibusdam sed fugit."
+				}
+			}
+		},
+		{
+			"droit": {
+				"idDroit": "3",
+				"type": "Droit_01",
+				"dateDebut": "2020-06-08T03:20:22.592Z",
+				"dateFin": "2021-08-29T12:50:02.120Z"
+			},
+			"produit": {
+				"id": 0,
+				"nom": "Handcrafted Concrete Chicken",
+				"description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+				"option": {
+					"id": 0,
+					"nom": "Park Chicken Senior",
+					"description": "Quibusdam sed fugit."
+				}
+			}
+		}
+	]
+}
