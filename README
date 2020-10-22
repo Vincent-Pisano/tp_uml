@@ -77,3 +77,14 @@ PHASE 4 : Implémenter
         ==> Clean Up du code, on veut limiter le code en double/inutile
             --> Suppression des attributs prenom / nom / string et ajout 
                 d'un attribut de type Contact
+
+PHASE 5 : Générer des données avec faker
+
+    Création du fichier GenerateJsonFiles.ts pour générer fichirs JSON
+
+    Création des 2 fonctions pour répondre aux 2 partie de l'objectif 2
+        ==> 5 instances parmi l'objet client et ses enfants
+            --> generateClientJsonFiles         :      dataClient.json  
+
+        ==> 5 instances parmi la relation entre l'objet Droit et l'objet Produit
+            --> generateProduitDroitJsonFiles   :      dataProduitDroit.json
