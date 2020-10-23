@@ -67,16 +67,15 @@ PHASE 4 : Implémenter
     Remarque 3 : pas de ClientType pour la classe Parent (Client)
         ==> on ajoute un ClientType pour la classe Client = indefini
 
-    Remarque 4 : Details et Contact n'ont pas de d'identifiant unique
-        ==> problème futur possible avec la base de données 
-            = possibilité de doublons 
+    Remarque 4 : Details et Contact n'ont pas de d'identifiant unique 
+        ==> possibilité de doublons 
             --> ajout de idDetails (Details) et idContact (Contact)
 
     Remarque 5 : doublon de code des attributs de Contact et de certain 
                  attributs de Individu
         ==> Clean Up du code, on veut limiter le code en double/inutile
             --> Suppression des attributs prenom / nom / string et ajout 
-                d'un attribut de type Contact
+                d'un attribut de type Contact dans Individu
 
 PHASE 5 : Générer des données avec faker
 
