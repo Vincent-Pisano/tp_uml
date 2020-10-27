@@ -1,151 +1,19 @@
 {
-	"Clients": [
-		{
-			"idClient": 0,
-			"type": 2,
-			"adresse": "25156 Christiansen Forks",
-			"droits": [
-				{
-					"idDroit": "8",
-					"type": "Droit_02",
-					"dateDebut": "2020-09-08T18:03:01.905Z",
-					"dateFin": "2021-05-14T05:43:21.387Z"
-				},
-				{
-					"idDroit": "9",
-					"type": "Droit_01",
-					"dateDebut": "2019-10-25T08:16:00.503Z",
-					"dateFin": "2021-09-08T03:50:05.074Z"
-				},
-				{
-					"idDroit": "10",
-					"type": "Droit_01",
-					"dateDebut": "2020-07-20T08:59:23.771Z",
-					"dateFin": "2021-08-12T10:58:18.435Z"
-				},
-				{
-					"idDroit": "11",
-					"type": "Droit_01",
-					"dateDebut": "2020-07-28T00:40:49.813Z",
-					"dateFin": "2021-02-01T02:51:45.199Z"
-				}
-			],
-			"nom": "Smitham, Reichel and Kihn",
-			"phone": "1-390-819-0061 x4363",
-			"fax": "Maryjane5@gmail.com",
-			"details": {
-				"idDetails": 0,
-				"rue": "Luna Heights",
-				"ville": "North Abbeyton",
-				"province": "Berkshire"
-			},
-			"contact": {
-				"idContact": 0,
-				"prenom": "Billy",
-				"nom": "Schultz",
-				"email": "Mossie34@gmail.com"
-			}
-		},
-		{
-			"idClient": 1,
-			"type": 1,
-			"adresse": "395 Rodolfo Terrace",
-			"droits": [
-				{
-					"idDroit": "12",
-					"type": "Droit_01",
-					"dateDebut": "2020-08-04T01:15:15.680Z",
-					"dateFin": "2021-04-16T08:55:58.907Z"
-				}
-			],
-			"contact": {
-				"idContact": 1,
-				"prenom": "Matt",
-				"nom": "Greenfelder",
-				"email": "Eric_Turcotte46@yahoo.com"
-			},
-			"details": {
-				"idDetails": 1,
-				"rue": "Zachariah Prairie",
-				"ville": "Jasminmouth",
-				"province": "Buckinghamshire"
-			}
-		},
-		{
-			"idClient": 2,
-			"type": 0,
-			"adresse": "5385 Eliseo Island",
-			"droits": [
-				{
-					"idDroit": "13",
-					"type": "Droit_01",
-					"dateDebut": "2020-05-07T20:22:13.859Z",
-					"dateFin": "2021-10-10T11:00:23.681Z"
-				},
-				{
-					"idDroit": "14",
-					"type": "Droit_03",
-					"dateDebut": "2020-07-28T04:00:54.276Z",
-					"dateFin": "2021-02-01T10:29:51.364Z"
-				},
-				{
-					"idDroit": "15",
-					"type": "Droit_01",
-					"dateDebut": "2020-01-03T15:10:03.473Z",
-					"dateFin": "2021-03-17T19:13:39.428Z"
-				},
-				{
-					"idDroit": "16",
-					"type": "Droit_03",
-					"dateDebut": "2020-01-24T16:23:49.889Z",
-					"dateFin": "2021-04-11T21:36:20.408Z"
-				}
-			]
-		},
-		{
-			"idClient": 3,
-			"type": 2,
-			"adresse": "879 Franecki Common",
-			"droits": [
-				{
-					"idDroit": "17",
-					"type": "Droit_01",
-					"dateDebut": "2020-03-26T23:48:46.430Z",
-					"dateFin": "2021-02-18T08:25:04.866Z"
-				}
-			],
-			"nom": "Krajcik, Casper and Cartwright",
-			"phone": "761.527.5761 x289",
-			"fax": "Ruthie.Toy62@hotmail.com",
-			"details": {
-				"idDetails": 3,
-				"rue": "Williamson Radial",
-				"ville": "Sipesburgh",
-				"province": "Bedfordshire"
-			},
-			"contact": {
-				"idContact": 3,
-				"prenom": "Jamar",
-				"nom": "Bechtelar",
-				"email": "Lempi1@gmail.com"
-			}
-		},
-		{
-			"idClient": 4,
-			"type": 1,
-			"adresse": "415 Rhea Rapid",
-			"contact": {
-				"idContact": 4,
-				"prenom": "Joshuah",
-				"nom": "Yost",
-				"email": "Cathrine.Doyle@yahoo.com"
-			},
-			"details": {
-				"idDetails": 4,
-				"rue": "Botsford Forest",
-				"ville": "Lake Elwyntown",
-				"province": "Borders"
-			}
-		}
-	]
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }

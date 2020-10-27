@@ -128,7 +128,6 @@ function generateClientJsonFiles() {
     var arrayClient = new Array();
     var client = new client_1.Client();
     for (var index = 0; index < NB_ITERATION; index++) {
-        client.droits = generateDroitClients();
         if (index % 3 == 0) {
             client = generateEntreprise(index);
         }
@@ -138,6 +137,7 @@ function generateClientJsonFiles() {
         else {
             client = generateClient(index);
         }
+        client.droits = generateDroitClients();
         arrayClient.push(client);
     }
     return { "Clients": arrayClient };

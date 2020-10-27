@@ -164,7 +164,6 @@ function generateDroitClients()
 {
     let nbrIteration: number = Math.floor(Math.random() * (NB_ITERATION - 1)) + 1;
     let droits: Array<Droit> = generateDroit(nbrIteration);
-
     return droits;
 }
 
@@ -175,7 +174,6 @@ function generateClientJsonFiles()
 
     for (let index = 0; index < NB_ITERATION; index++) {
 
-        client.droits = generateDroitClients();
         if(index % 3 == 0)
         {
             client = generateEntreprise(index);
@@ -187,6 +185,7 @@ function generateClientJsonFiles()
         else {
             client = generateClient(index);
         }
+        client.droits = generateDroitClients();
 
         arrayClient.push(client);
     }
