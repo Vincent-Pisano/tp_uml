@@ -1,0 +1,89 @@
+{
+	"ProduitDroit": [
+		{
+			"droit": {
+				"idDroit": "0",
+				"type": "Droit_01",
+				"dateDebut": "2020-09-27T12:28:00.328Z",
+				"dateFin": "2021-04-24T06:02:21.045Z"
+			},
+			"produit": {
+				"id": 4,
+				"nom": "Tasty Steel Sausages",
+				"description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+				"option": {
+					"id": 4,
+					"nom": "Usability plum Ball",
+					"description": "Qui omnis reprehenderit impedit."
+				}
+			}
+		},
+		{
+			"droit": {
+				"idDroit": "2",
+				"type": "Droit_01",
+				"dateDebut": "2020-01-05T00:43:05.430Z",
+				"dateFin": "2021-04-21T07:28:35.464Z"
+			},
+			"produit": {
+				"id": 2,
+				"nom": "Tasty Rubber Tuna",
+				"description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+				"option": {
+					"id": 2,
+					"nom": "Architect Towels Sleek",
+					"description": "Odio at aut unde aut."
+				}
+			}
+		},
+		{
+			"droit": {
+				"idDroit": "4",
+				"type": "Droit_01",
+				"dateDebut": "2019-12-20T23:25:53.655Z",
+				"dateFin": "2021-03-15T07:48:15.670Z"
+			},
+			"produit": {
+				"id": 2,
+				"nom": "Tasty Rubber Tuna",
+				"description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+				"option": {
+					"id": 2,
+					"nom": "Architect Towels Sleek",
+					"description": "Odio at aut unde aut."
+				}
+			}
+		},
+		{
+			"droit": {
+				"idDroit": "1",
+				"type": "Droit_01",
+				"dateDebut": "2019-12-15T02:14:48.047Z",
+				"dateFin": "2021-10-26T01:23:32.746Z"
+			},
+			"produit": {
+				"id": 0,
+				"nom": "Gorgeous Steel Chicken",
+				"description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+				"option": {
+					"id": 0,
+					"nom": "Customer-focused",
+					"description": "Vero in laboriosam aliquid qui cupiditate vitae."
+				}
+			}
+		},
+		{
+			"droit": {
+				"idDroit": "0",
+				"type": "Droit_01",
+				"dateDebut": "2020-09-27T12:28:00.328Z",
+				"dateFin": "2021-04-24T06:02:21.045Z"
+			},
+			"produit": {
+				"id": 3,
+				"nom": "Gorgeous Steel Car",
+				"description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J"
+			}
+		}
+	]
+}

@@ -1,0 +1,145 @@
+{
+	"Clients": [
+		{
+			"idClient": 0,
+			"type": 2,
+			"adresse": "615 Brannon Squares",
+			"droits": [
+				{
+					"idDroit": "7",
+					"type": "Droit_03",
+					"dateDebut": "2020-07-06T19:20:07.927Z",
+					"dateFin": "2020-11-08T21:44:04.148Z"
+				},
+				{
+					"idDroit": "8",
+					"type": "Droit_02",
+					"dateDebut": "2020-05-06T01:29:00.073Z",
+					"dateFin": "2021-04-24T07:04:20.611Z"
+				},
+				{
+					"idDroit": "9",
+					"type": "Droit_01",
+					"dateDebut": "2019-11-29T13:48:41.140Z",
+					"dateFin": "2021-09-24T08:03:56.276Z"
+				}
+			],
+			"nom": "Grady, Mosciski and Sawayn",
+			"phone": "440.765.9684",
+			"fax": "Tianna.Will@yahoo.com",
+			"details": {
+				"idDetails": 0,
+				"rue": "Doug Plains",
+				"ville": "New Valentine",
+				"province": "Bedfordshire"
+			},
+			"contact": {
+				"idContact": 0,
+				"prenom": "Jade",
+				"nom": "Schaden",
+				"email": "Destin4@hotmail.com"
+			}
+		},
+		{
+			"idClient": 1,
+			"type": 1,
+			"adresse": "335 Javonte Rest",
+			"droits": [
+				{
+					"idDroit": "10",
+					"type": "Droit_01",
+					"dateDebut": "2020-07-10T12:35:51.087Z",
+					"dateFin": "2020-11-01T06:15:05.196Z"
+				},
+				{
+					"idDroit": "11",
+					"type": "Droit_01",
+					"dateDebut": "2019-12-09T08:47:19.622Z",
+					"dateFin": "2021-04-04T10:27:13.329Z"
+				}
+			],
+			"contact": {
+				"idContact": 1,
+				"prenom": "Ora",
+				"nom": "Green",
+				"email": "Eduardo_Doyle63@hotmail.com"
+			},
+			"details": {
+				"idDetails": 1,
+				"rue": "Marshall Islands",
+				"ville": "Rubenton",
+				"province": "Buckinghamshire"
+			}
+		},
+		{
+			"idClient": 2,
+			"type": 0,
+			"adresse": "19717 Hagenes Forge",
+			"droits": [
+				{
+					"idDroit": "12",
+					"type": "Droit_03",
+					"dateDebut": "2020-09-15T02:28:06.295Z",
+					"dateFin": "2020-11-23T18:06:20.693Z"
+				},
+				{
+					"idDroit": "13",
+					"type": "Droit_01",
+					"dateDebut": "2019-11-27T14:56:28.949Z",
+					"dateFin": "2021-01-06T22:25:23.193Z"
+				},
+				{
+					"idDroit": "14",
+					"type": "Droit_03",
+					"dateDebut": "2020-05-19T18:53:25.849Z",
+					"dateFin": "2021-06-23T01:42:37.667Z"
+				}
+			]
+		},
+		{
+			"idClient": 3,
+			"type": 2,
+			"adresse": "607 Davin Oval",
+			"droits": [
+				{
+					"idDroit": "15",
+					"type": "Droit_03",
+					"dateDebut": "2020-03-07T14:25:37.254Z",
+					"dateFin": "2021-01-16T04:27:12.385Z"
+				}
+			],
+			"nom": "Legros Inc",
+			"phone": "828-777-5539 x30979",
+			"fax": "Ivory88@gmail.com",
+			"details": {
+				"idDetails": 3,
+				"rue": "Damien Groves",
+				"ville": "Prohaskabury",
+				"province": "Buckinghamshire"
+			},
+			"contact": {
+				"idContact": 3,
+				"prenom": "Chloe",
+				"nom": "Koch",
+				"email": "Elias66@gmail.com"
+			}
+		},
+		{
+			"idClient": 4,
+			"type": 1,
+			"adresse": "67680 Daisy Mill",
+			"contact": {
+				"idContact": 4,
+				"prenom": "Noah",
+				"nom": "Stanton",
+				"email": "Eulah_Cartwright58@gmail.com"
+			},
+			"details": {
+				"idDetails": 4,
+				"rue": "Norris Roads",
+				"ville": "South Aron",
+				"province": "Buckinghamshire"
+			}
+		}
+	]
+}
