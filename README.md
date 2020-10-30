@@ -1,5 +1,5 @@
 # tpUML
-Ce répertoire sert à la remise du tp1-partie1 sur le diagramme UML à TypeScript
+Ce répertoire sert à la remise du tp1-partie2 sur la transformation d'un diagramme UML en TypeScript
 
 Je vais ne déposer que mes fichiers, 
 vous devez compiler avec : 
